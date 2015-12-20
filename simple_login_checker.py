@@ -3,15 +3,15 @@
 
 
 #variables in plain text
-username = 'nubbix'
-password = 'kneppis'
+username = 'test'
+password = 'lamepassword'
 
 #This takes an input from the user
 userName = input(str('Please enter your username: '))
 userPassword = input(str('Please enter your password: '))
 
 #statement to check if username and password is set
-if (userName == 'nubbix') and (userPassword == 'kneppis'):
+if (userName == 'test') and (userPassword == 'lamepassword'):
     print('Login successful')
 else:
     print('Login failed')
